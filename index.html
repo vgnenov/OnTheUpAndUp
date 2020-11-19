@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ 
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>On the Up and Up</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<body>
+ 
+    <!-- CONTAINERS -->
+    <!-- container puts padding around itself while container-fluid fills the whole screen. Bootstap grids require a container. -->
+    <div class="container">
+     
+    <!-- page-header adds space aroundtext and enlarges it. It also adds an underline at the end -->
+    <div class="page-header">
+        <h1>On the Up and Up: National vs. Industry Unemployment Rates <br> and the Gender Wage Gap</h1>
+    </div>
+     
+    <!-- jumbotron enlarges fonts and puts everything in a gray box with rounded corners. If jumbotron is outside a container it fills the total width. You can change the styles by placing the changes after the Bootstrap CDN link -->
+    <div class="jumbotron">
+        <p>Big Data is getting even bigger as we live in a more data driven world. With this project we sought to show
+            a historical analysis of the national unemployment rates in comparison with industry unemployment rates. Our hyptothesis 
+            is that unemployment rates in the Data Science career space will trend lower than the national average based on the sheer
+            number of opportunities that exist. We wanted to take this one step further and analyze the gender pay gap within the field
+            to find out if the Data Science is field is making strides in closing the gap. All data was collected from the U.S. Bureau of
+            Labor Statistics (click below for BLS site). 
+        </p>
+        <a href="https://www.bls.gov/" class = "btn btn-default btn-lg" role="button" target="_blank">U.S. Bureau of Labor Statistics</a>
+    </div>
+
+    <!-- this container will hold the embed links for our dashboards-->
+    <div class="container">
+        <div class="row">
+            <h2 style="color: midnightblue;">National vs. Industry Unemployment Averages</h2>
+            <!-- embed code to Dashboard 1 -->
+            <div class='tableauPlaceholder' id='viz1605752756888' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Na&#47;NationalvsIndustryUnemploymentRates&#47;UnemploymentComparison&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NationalvsIndustryUnemploymentRates&#47;UnemploymentComparison' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Na&#47;NationalvsIndustryUnemploymentRates&#47;UnemploymentComparison&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605752756888');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1920px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1310px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1920px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1310px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='750px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <p style="background-color: whitesmoke; color: black; font-size: large;">The bar graph above represents the National vs. Industry unemployment rates over a ten year period (2010-2020). 
+                Each month represents the average rate for that month over 10 years. It is a general trend that the Data Science industry has a lower unemployment rate than the national average. </p>
+        </div>
+
+        <div class="row">
+            <h2 style="color: midnightblue;">National vs. Industry Unemployment Averages by Gender</h2>
+            <!-- embed code to Dashboard 2 -->
+            <div class='tableauPlaceholder' id='viz1605752818512' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;UnemploymentGenderComparison&#47;GenderComparisons&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UnemploymentGenderComparison&#47;GenderComparisons' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;UnemploymentGenderComparison&#47;GenderComparisons&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605752818512');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='2020px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1450px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='2020px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1450px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='800px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <p style="background-color: whitesmoke; color: black; font-size: large;">The above bar and line graphs represent the average unemployment rates by gender. Some notable trends are the gaps in average rates between the 2008 recession and the recession that we are currently in. Women’s unemployment rates 2008 were significantly higher than that of men and are increasing exponentially in 2020. 
+                Some reasons for the 2020 trend is that more women are being forced to quit their jobs due to the demands of home schooling and other work-life balance demands. </p> 
+        </div>
+
+        <div class="row">
+            <h2 style="color: midnightblue;">National vs Industry Median Weekly Earnings by Gender</h2>
+            <!-- embed code to Dashboard 3 -->
+            <div class='tableauPlaceholder' id='viz1605752860998' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GenderPayGap_16055830314400&#47;GenderEarningsComparisons&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GenderPayGap_16055830314400&#47;GenderEarningsComparisons' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GenderPayGap_16055830314400&#47;GenderEarningsComparisons&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605752860998');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1920px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1610px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1920px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1610px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='800px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <p style="background-color: whitesmoke; color: black; font-size: large;">The above bar graphs show that as we know the pay gap between men and women exists, but is closing as time moves forward. However, the national trend for closing the gap is much slower than the industry trend. </p>
+        </div>
+
+        <div class="row">
+            <h2 style="color: midnightblue;">Median Salaries: National vs. Illinois and by Gender</h2>
+            <!-- embed code to Dashboard 4 -->
+            <div class='tableauPlaceholder' id='viz1605752915656' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MedianSalaryComparisons&#47;SalaryComparisons&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MedianSalaryComparisons&#47;SalaryComparisons' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MedianSalaryComparisons&#47;SalaryComparisons&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605752915656');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='2120px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1610px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='2120px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1610px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='800px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <p style="background-color: whitesmoke; color: black; font-size: large;">The above graphs show that Illinoisans earn less on average than the national weekly median salary and men earn more than women. </p>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
+
