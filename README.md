@@ -7,8 +7,16 @@ Analyze historical unemployment and salary data on a national level and compare 
 
 ## Process
 
-### Step 1 - Data Collection and Cleaning
+### Data Collection
 All data was collected from BLS.gov and cleaned in combination using Pandas and Excel
 ![Screenshot](Screenshots/bls.JPG "Screenshot")
 
-### Step 2 - 
+### Data Wrangling and Tableau
+
+### Making Connections and Finding Trends
+
+## Results
+
+Screenshot of the landing page
+![Screenshot](Screenshots/main.JPG "Screenshot")
+
