@@ -1,13 +1,4 @@
-HOUSEHOLD DATA,,,,,,
-ANNUAL AVERAGES,,,,,,
-39. Median weekly earnings of full-time wage and salary workers by detailed occupation and sex [Numbers in thousands],,,,,,
-https://www.bls.gov/cps/cpsaat39.htm,,,,,,
-,,,,,,
-,,,,,,
-Occupation: Computer and information systems managers,,,,,,
-,Total,,Men,,Women,
-,Number of workers,Median weekly earnings,Number of workers,Median weekly earnings,Number of workers,Median weekly earnings
-Year,,,,,,
+Year,Total Number of workers,Median weekly earnings,Male Number of workers,Male Median weekly earnings,Female  Number of workers,Female Median weekly earnings
 2019,629,"1,984",439,"2,019",190,"1,892"
 2018,601,"1,877",448,"1,920",153,"1,727"
 2017,594,"1,843",428,"1,897",165,"1,629"
@@ -25,5 +16,3 @@ Year,,,,,,
 2005,326,"1,428",227,1540,100,"1,094"
 2004,325,"1,439",228,1547,96,"1,228"
 2003,331,"1,401",233,1437,99,"1,280"
-,,,,,,
-,,,,,,
