@@ -16,8 +16,10 @@ All data was collected from BLS.gov and cleaned in combination using Pandas and 
 ### Making Connections and Finding Trends
 ![Screenshot](Screenshots/comp.JPG "Screenshot")
 
+
 ## Results
 
-Screenshot of the landing page
+Screenshot of the interactive landing page
+
 ![Screenshot](Screenshots/main.JPG "Screenshot")
 
