@@ -11,7 +11,7 @@ Analyze historical unemployment and salary data on a national level and compare 
 All data was collected from BLS.gov and cleaned in combination using Pandas and Excel
 ![Screenshot](Screenshots/bls.JPG "Screenshot")
 
-### Data Wrangling and Tableau
+<!-- ### Data Wrangling and Tableau -->
 
 ### Making Connections and Finding Trends
 ![Screenshot](Screenshots/comp.JPG "Screenshot")
