@@ -14,6 +14,7 @@ All data was collected from BLS.gov and cleaned in combination using Pandas and 
 ### Data Wrangling and Tableau
 
 ### Making Connections and Finding Trends
+![Screenshot](Screenshots/comp.JPG "Screenshot")
 
 ## Results
 
