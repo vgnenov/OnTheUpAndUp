@@ -23,3 +23,11 @@ Screenshot of the interactive landing page
 
 ![Screenshot](Screenshots/main.JPG "Screenshot")
 
+## Contributors:
+- Courtney Dumas - https://github.com/cdfencing
+- Nicole Langford - https://github.com/nlangf2010
+- Quentin Sloboda - https://github.com/qwsloboda
+- Naomi Scully - https://github.com/naomisdev
+- Beth Hakamy - https://github.com/microdecisions
+
+
